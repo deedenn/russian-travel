@@ -6,9 +6,9 @@
     padding-bottom: 32px;
     max-width: 720px;
     color: #FFFFFF;
-    Font-size: 96px;
+    font-size: 96px;
     font-weight: 900;
-    Line-height: 100px;
+    line-height: 100px;
     text-align: center;
 }
 
@@ -23,7 +23,7 @@
     .lead__title {
         max-width: 288px;
         font-size: 40px;
-        Line-height: 44px;
+        line-height: 44px;
         padding-bottom: 16px;
     }
 }
