@@ -22,4 +22,4 @@ Grid-layout
 
 **Ссылка на проект**
 
-https://github.com/deedenn/russian-travel
+https://deedenn.github.io/russian-travel/

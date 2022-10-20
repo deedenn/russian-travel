@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 690px) {
     .footer__link {
         display: flex;
         flex-direction: column;

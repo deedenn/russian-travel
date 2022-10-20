@@ -19,15 +19,14 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 90px;
-    max-width: 720px;       
+    max-width: 100%;       
     }
 }
 
 @media (max-width: 550px) {
     .places {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 66px;  
-    max-width: 500px;     
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 66px;   
     }
 }
