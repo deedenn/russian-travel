@@ -7,3 +7,8 @@
     text-align: left;
     color: #AAAAAA;
 }
+
+@media (max-width: 500px) {
+    .place__url-head {
+    }
+}
