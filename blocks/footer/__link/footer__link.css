@@ -9,10 +9,18 @@
     margin: 0;
 }
 
+.footer__link:hover {
+    opacity: 0.8;
+}
+
 @media (max-width: 690px) {
     .footer__link {
         display: flex;
         flex-direction: column;
         padding-bottom: 32px;
+    }
+
+    .footer__link:last-child {
+        padding-bottom: 48px;
     }
 }

@@ -1,8 +1,5 @@
 .places {
-    padding-top: 0;
-    padding-left: 148px;
-    padding-right: 148px;
-    padding-bottom: 92px;
+    padding: 0 148px 92px;
     margin: 0;
     max-width: 984px;
 }
@@ -25,8 +22,8 @@
 
 @media (max-width: 550px) {
     .places {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 66px;   
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;   
     }
 }

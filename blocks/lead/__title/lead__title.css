@@ -1,5 +1,5 @@
 .lead__title {
-    margin: 0;
+    margin: 56px auto 0;
     padding-top:0;
     padding-left: 0;
     padding-right: 0;
@@ -8,13 +8,18 @@
     color: #FFFFFF;
     font-size: 96px;
     font-weight: 900;
-    line-height: 100px;
+    line-height: 1.04;
     text-align: center;
 }
 
-@media (max-width: 685px) {
+@media (max-width: 1024px) {
     .lead__title {
-        max-width: 80vw;
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 744px) {
+    .lead__title {
         font-size: 12vw;
     }
 }
@@ -23,7 +28,9 @@
     .lead__title {
         max-width: 288px;
         font-size: 40px;
-        line-height: 44px;
+        line-height: 1.1;
         padding-bottom: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

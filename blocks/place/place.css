@@ -7,6 +7,10 @@
     grid-gap: 48px 40px;
 }
 
+.place:last-child {
+    padding-bottom: 0;
+}
+
 @media (max-width: 1024px) {
     .place {
         grid-template-columns: 440px 1fr;
