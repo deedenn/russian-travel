@@ -1,23 +1,6 @@
 .cover {
-    padding: 92px 0 0;
     margin-bottom: 92px;
     width: 100%;
-
 }
 
-.cover::before {
-    content: "";
-    background-color: #2a2c2f;
-    opacity: 0.3;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.cover:hover::before {
-    opacity: 0.8;
-}
 

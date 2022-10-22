@@ -2,11 +2,13 @@
     margin: 0 auto;
     padding: 0 48px 92px;
     max-width: 1184px;
+    gap: 16px;
 }
 
 @media (max-width: 1024px) {
     .photo-grid {
-        max-width: 928px;        
+        max-width: 928px;
+        gap: 14px;
     }
 }
 
@@ -15,7 +17,7 @@
         max-width: 720px;
         padding-left: 24px;
         padding-right: 24px;
-        padding-bottom: 88px;          
+        padding-bottom: 88px;
     }
 }
 
@@ -24,6 +26,7 @@
         max-width: 288px;
         padding-left: 16px;
         padding-right: 16px;
-        padding-bottom: 64px;    
+        padding-bottom: 64px;
+        gap: 12px;   
     }
 }
