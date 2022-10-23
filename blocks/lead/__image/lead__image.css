@@ -13,12 +13,12 @@
 
 @media (max-width: 768px) {
     .lead__image {
-        max-width: 768px;;
+        max-width: 768px;
     }
 }
 
-@media (max-width: 32-px) {
+@media (max-width: 32px) {
     .lead__image {
-        max-width: 320px;;
+        max-width: 320px;
     }
 }
