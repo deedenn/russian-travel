@@ -5,8 +5,17 @@
     text-decoration: underline;
     font-size: 18px;
     line-height: 22px;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .place__link:hover {
     opacity: 0.8;
 }
+
+@media  screen and (max-width: 610px) {
+    .place__link {
+        min-width: 288px;
+        margin: 12px 0 32px;
+    }
+  }

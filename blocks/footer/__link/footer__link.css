@@ -1,10 +1,12 @@
 .footer__link {
-    margin: 0 3px;
+    margin: 0;
     font-size: 16px;
-    line-height: 93%;
+    font-style: normal;
+    line-height: 18px;
     text-align: left;
     color: #FFFFFF;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .footer__link:hover {
@@ -15,7 +17,9 @@
     .footer__link {
         display: flex;
         flex-direction: column;
-        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 24px;
+        padding: 0;
     }
 
     .footer__link:last-child {
