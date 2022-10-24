@@ -1,6 +1,9 @@
 .photo-grid__item {
+    width: 100%;
     max-width: 284px;
     object-fit: cover;
+    justify-self: center;
+    align-self: center;
 }
 
 @media (max-width: 1024px) {
