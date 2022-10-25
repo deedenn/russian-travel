@@ -5,20 +5,32 @@
     display: block;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .place__image {
-      max-width: 440px;     
+      max-width: 440px;
     }
 }
 
 @media (max-width: 768px) {
     .place__image {
         max-width: 340px;
+        padding: 0;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 550px) {
     .place__image {
-        max-width: 280px;      
+        max-width: 320px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    .place__image {
+        align-self: center;
+        padding: 0;
+        margin: 0;
+
     }
 }

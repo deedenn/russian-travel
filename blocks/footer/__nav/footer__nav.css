@@ -7,7 +7,7 @@
     padding-left: 0;
 }
 
-@media (max-width: 685px) {
+@media (max-width: 690px) {
     .footer__nav {
         flex-direction: column;
         margin-bottom: 46px;

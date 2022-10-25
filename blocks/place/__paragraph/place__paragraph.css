@@ -1,9 +1,6 @@
 .place__paragraph {
     margin: 0;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 27px;
+    padding: 0 0 0 27px;
     color: #FFFFFF;
     font-style: normal;
     font-size: 18px;
@@ -20,12 +17,19 @@
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
-        padding-bottom: 25px;
+        padding: 0 16px 16px 25px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 550px) {
     .place__paragraph {
+        max-width: 500px;
+    }
+}
+    
+@media (max-width: 320px) {
+    .place__paragraph {
+        padding: 0;
         margin: 0 16px;
     }
 }
